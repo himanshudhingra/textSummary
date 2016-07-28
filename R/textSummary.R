@@ -1,6 +1,4 @@
-install.packages("quanteda")
-
-library(quanteda)
+require(quanteda)
 library(stringi)
 
 # Function to get the summary
