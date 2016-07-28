@@ -2,7 +2,7 @@ require(quanteda)
 library(stringi)
 
 # Function to get the summary
-summary<-function(content,summary_length,important_words){
+summary<-function(content,summary_length,important_words=NULL){
   
 #Split by sentence
 sentences<-tokenize(content,what="sentence")
