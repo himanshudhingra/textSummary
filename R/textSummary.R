@@ -1,6 +1,3 @@
-require(quanteda)
-library(stringi)
-
 # Function to get the summary
 summary<-function(content,summary_length,important_words=NULL){
   
