@@ -82,7 +82,5 @@ new_dict<-dict[order(dict[,2],decreasing=TRUE),]
 #NOTE3: content can be string entered manually or a csv(comma delim) with all content in the first
         #cell only as x<-paste(read.csv("F:/R/book1.csv", sep=",",header = FALSE,stringsAsFactors=FALSE),collapse=" ")
 
-#NOTE4: If any error, try to remove special characters like ®, T etc, though in most cases they don't create problem.
-
-#NOTE: Speed of the summary depends on the no. of special characters which is removed by the algorithm
+#NOTE4: Speed of the summary depends on the no. of special characters which is removed by the algorithm
        #and the number of characters in the content. usual speed is 4~5 seconds/1000 characters.
