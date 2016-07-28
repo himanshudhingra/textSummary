@@ -1,9 +1,11 @@
 Package: textSummary
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Title: Get automatic summary of any content.
+Version: 1.0
+Date: 21/07/2016
+Authors: Himanshu Dhingra
+Maintainer: Himanshu Dhingra <himanshudhingra11@gmail.com>
+Description: Get automatic summary of any content (specially designed for news articles) giving importance to the sentences containing the desired words which should not be missed in the summary regardless the sentence has been picked up as important or not.
+Depends: R (>= 3.3.0)
+License: AGPL-3
+Encoding: UTF-8
 LazyData: TRUE
